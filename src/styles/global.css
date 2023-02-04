@@ -1,0 +1,51 @@
+:root {
+	/* --nav-color: #233b53; */
+	--color-1: #1f5e98;
+	--color-2: #292f33;
+	--color-7: #3d5e70c4;
+	--color-3: #55acee;
+	--color-4: #99aab5;
+	--color-5: #ccd6dd;
+	--color-6: #e1e8e6;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* width */
+::-webkit-scrollbar {
+	width: 9px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+	background: #1b1b1b;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+	background: #363636;
+	border-radius: 2px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+	background: #555;
+}
+
+body,
+* {
+	margin: 0;
+	padding: 0;
+	font-size: 20px;
+}
+
+body {
+	background-color: var(--color-2);
+}
+
+a,
+a:hover,
+a:focus,
+a:active {
+	text-decoration: none;
+	cursor: pointer;
+}
