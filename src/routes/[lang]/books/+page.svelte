@@ -15,6 +15,8 @@
 		<div class="latest-container container">
 			<h1 class="header">
 				{#if lang === 'am'}የደንበኞች አገልግሎት{/if}
+				<br />
+				<a href="/files/sample.pdf">Download Sample</a>
 			</h1>
 			<!-- TODO Load from a database -->
 
