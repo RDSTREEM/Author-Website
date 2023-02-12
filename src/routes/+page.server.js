@@ -11,11 +11,10 @@ export const actions = {
 		};
 	}
 };
-
 // @ts-ignore
 export function load({ cookies }) {
 	if (!['am', 'en'].includes(cookies.get('lang'))) {
-		cookies.set('lang', 'en');
+		cookies.set('lang', 'am');
 	}
 	throw redirect(302, `${cookies.get('lang')}`);
 }
