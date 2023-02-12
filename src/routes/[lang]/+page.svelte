@@ -34,21 +34,19 @@
 		<div class="services-container container">
 			<h1 class="header">Services</h1>
 			<!-- <p class="text-intro"></p> -->
-			<span class="main-text"
-				>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente possimus eligendi nulla
-				corrupti, laborum numquam esse perspiciatis, nobis reprehenderit commodi rem accusamus
-				tenetur, fugiat temporibus modi odio ipsam asperiores soluta! Sit amet voluptatibus ad
-				ratione enim deserunt quaerat odit delectus. Nobis nemo vel voluptatum culpa sint corporis
-				quasi minus saepe recusandae, possimus fugit perferendis magnam mollitia, sapiente accusamus
-				adipisci fugiat. Eius illum qui minus! Sint placeat ex corporis dolorum eveniet. Aut
-				consectetur necessitatibus qui sequi, deserunt quam libero incidunt quidem dolor mollitia
-				quas error dolorum nam sit sed cupiditate blanditiis! Consequuntur impedit nam nemo.
-				Facilis, minus doloribus. Repellat reprehenderit ducimus enim dignissimos hic facere ratione
-				possimus consectetur minima, labore eligendi dolorem deserunt saepe cum doloribus voluptatum
-				ipsa omnis culpa? Ab. Molestiae aspernatur, cum doloribus alias nostrum libero dolorum
-				accusantium sint ad fugit suscipit cupiditate minima sequi? Placeat, quibusdam quis ut in
-				consectetur beatae voluptas facilis, quam illo veniam aspernatur laudantium?</span
-			>
+			<div class="service-text">
+				<span class="main-text">
+					<ul>
+						<li>ስልጠና፣ ምርምርና የማማከር አገልግሎት (Training Research and consultancy)</li>
+						<li>የሽያጭ ክህሎትና የገበያ አስተዳደር(Sales &amp Marketing)</li>
+						<li>የደንበኞች አገልግሎት(Customer Service)</li>
+						<li>ዲጅታል ማርኬቲንግ(Digital Marketing)</li>
+						<li>የስራ ፈጠራ (Entrepreneurship: startup &amp; corporate)</li>
+						<li>የቢዝነስ ሞዴል ምስረታና ማሻሻያ(Business Model Development and Innovation )</li>
+						<li>የህዝብ ግንኙነትና የተግባቦት ክህሎት(Public Relations &amp; Communication)</li>
+					</ul>
+				</span>
+			</div>
 		</div>
 	</div>
 </main>
@@ -94,7 +92,16 @@
 		background-color: darkcyan;
 		height: max-content;
 	}
+
 	.main-text {
 		font-size: 1em;
+	}
+
+	ul {
+		list-style: disc;
+	}
+
+	.service-text {
+		padding-left: 1rem;
 	}
 </style>

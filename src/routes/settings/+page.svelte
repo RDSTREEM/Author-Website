@@ -14,6 +14,10 @@
 	$: lang = data.lang;
 </script>
 
+<svelte:head>
+	<title>Settings | Abebe Kebie</title>
+</svelte:head>
+
 <main>
 	<div class="wrapper">
 		<div class="settings-container container">
