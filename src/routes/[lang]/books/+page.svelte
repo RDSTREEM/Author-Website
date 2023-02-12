@@ -14,14 +14,14 @@
 	<div class="wrapper">
 		<div class="latest-container container">
 			<h1 class="header">
-				{#if lang === 'am'}የደንበኞች አገልግሎት{/if}
+				የደንበኞች አገልግሎት
 				<br />
 				<a href="/files/sample.pdf">Download Sample</a>
 			</h1>
 			<!-- TODO Load from a database -->
 
 			<p class="text-intro">
-				{#if lang === 'am'}የአገልግሎት ልህቀት ለዘላቂ ተወዳዳሪነት{/if}
+				የአገልግሎት ልህቀት ለዘላቂ ተወዳዳሪነት
 				<!-- The Book Of Stuff -->
 			</p>
 			<div class="img-container">
@@ -30,7 +30,7 @@
 			<span class="main-text">
 				<p>የደንበኞች አገልግሎት ልህቀት ብቸኛው ዘላቂ የትርፍማነትና ተወዳዳሪነት ምንጭ</p>
 				<p>
-					• ደንበኞች የሚጠቀሟቸውን ምርቶችና አገልግሎቶች የሚገዙባቸውንና የሚገለገሉባቸውን ድርጅቶችና ተቋማት ከሚቀይሩባቸው ምክነያቶች ውስጥ ዋናውና
+					ደንበኞች የሚጠቀሟቸውን ምርቶችና አገልግሎቶች የሚገዙባቸውንና የሚገለገሉባቸውን ድርጅቶችና ተቋማት ከሚቀይሩባቸው ምክነያቶች ውስጥ ዋናውና
 					ቀዳሚው ከደንበኞች አገልግሎት ጋር የተያያዙ ጉዳዮች መሆኑን በአገልግሎት ልህቀትና በገበያ ስራ አመራር ዙሪያ የተደረጉ ጥናቶችና ምርምሮች
 					ይጠቁማሉ።
 				</p>

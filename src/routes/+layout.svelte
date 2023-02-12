@@ -101,12 +101,39 @@
 	svg {
 		position: fixed;
 		z-index: 10;
-		width: 1.7em;
-		height: 1.7em;
+		width: 1.7rem;
+		height: 1.7rem;
 		top: 0.5rem;
 		right: 0.7rem;
 	}
 	.bg-ul {
 		height: 2.7rem;
+	}
+
+	@media (max-width: 430px) {
+		svg {
+			width: 1.2rem;
+		}
+
+		ul a {
+			font-size: 16px;
+		}
+
+		ul li {
+			margin-left: 0.2rem;
+		}
+	}
+	@media (max-width: 330px) {
+		svg {
+			width: 1rem;
+		}
+
+		ul a {
+			font-size: 12px;
+		}
+
+		ul li {
+			margin-left: 0.2rem;
+		}
 	}
 </style>
