@@ -230,7 +230,8 @@
 		text-align: center;
 	}
 
-	/* .suggestion-text > p {
-		
-	} */
+	.suggestion-text {
+		padding-left: 2rem;
+		padding-right: 2rem;
+	}
 </style>
