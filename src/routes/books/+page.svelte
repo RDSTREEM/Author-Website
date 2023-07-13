@@ -228,6 +228,8 @@
 	.suggestion-head {
 		font-size: 1.5rem;
 		margin: -2rem;
+		margin-left: auto;
+		margin-right: auto;
 	}
 
 	.suggestion-text {
