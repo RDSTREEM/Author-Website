@@ -204,7 +204,7 @@
 		max-width: 40%;
 	}
 
-	.main-text > p {
+	.main-text p {
 		text-align: justify;
 		padding-top: 1rem;
 		padding-left: 1rem;
@@ -225,12 +225,12 @@
 		margin-bottom: 1rem;
 		text-align: justify;
 	}
-	.suggestion-text {
-		padding-left: 1rem;
-		padding-right: 1rem;
-	}
 	.suggestion-head {
 		font-size: 1.5rem;
 		text-align: center;
 	}
+
+	/* .suggestion-text > p {
+		
+	} */
 </style>
