@@ -226,8 +226,8 @@
 		text-align: justify;
 	}
 	.suggestion-head {
-		/* font-size: 1.5rem; */
-		margin: 0;
+		font-size: 1.5rem;
+		margin: -2rem;
 	}
 
 	.suggestion-text {
