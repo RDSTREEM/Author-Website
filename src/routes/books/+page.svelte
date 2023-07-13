@@ -229,7 +229,7 @@
 		margin-right: auto;
 	}
 
-	.suggestor {
+	.suggester {
 		color: white;
 	}
 	.suggestion-text {
