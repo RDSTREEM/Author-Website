@@ -101,8 +101,8 @@
 			</div>
 			<span class="main-text">
 				<p class="cyan">“ሁሉም ሰው የሽያጭ ሰራተኛ ነው”</p>
-				<p class="aqua">ጤና ይስጥልኝ!</p>
-				<p class="aqua">በሽያጭ ስራዎት ስኬታማ መሆን ይፈልጋሉ?</p>
+				<p class="cyan">ጤና ይስጥልኝ!</p>
+				<p class="cyan">በሽያጭ ስራዎት ስኬታማ መሆን ይፈልጋሉ?</p>
 				<p>
 					በዚህ መጽሀፍ ውስጥ የተካተቱ ሳይንሳዊ የሽያጭ እና ገበያ አስተዳደር መርሆዎች፣ አስተሳሰቦች፣ ስትራቴጅዎች እና ጥበቦችን በመተግበር በቀላሉ
 					ስኬታማ መሆን ይችላሉ፡፡ ሽያጭ ሳይንሳዊ ሂደት ነው፡፡ ይህ መፅሀፍ በገበያ ስራ አመራር በተለይም በሽያጭ ስራ ውስጥ ስኬታማ ለመሆን የሚያስችሉ
@@ -223,7 +223,7 @@
 	}
 	.suggestion-head {
 		font-size: 1.5rem;
-		margin-top: -2rem;
+		margin-top: 0rem;
 		margin-bottom: -1rem;
 		margin-left: auto;
 		margin-right: auto;
