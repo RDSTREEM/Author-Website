@@ -223,8 +223,8 @@
 	}
 	.suggestion-head {
 		font-size: 1.5rem;
-		margin: -2rem;
-		margin-bottom: 0rem;
+		margin-top: -2rem;
+		margin-bottom: -1rem;
 		margin-left: auto;
 		margin-right: auto;
 	}
@@ -243,7 +243,7 @@
 	}
 
 	.aqua {
-		color: cornflowerblue;
+		color: aquamarine;
 		font-weight: bold;
 	}
 </style>
