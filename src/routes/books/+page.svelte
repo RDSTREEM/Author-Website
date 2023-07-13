@@ -231,4 +231,8 @@
 	.stat-img {
 		margin-top: 1.5rem;
 	}
+	.suggestion {
+		margin-top: 1rem;
+		margin-bottom: 1rem;
+	}
 </style>
