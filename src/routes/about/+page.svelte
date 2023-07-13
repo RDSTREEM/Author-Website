@@ -1,10 +1,3 @@
-<script>
-	// @ts-ignore
-	export let data;
-	// @ts-ignore
-	$: lang = data.lang;
-</script>
-
 <svelte:head>
 	<title>About | Abebe Kebie</title>
 </svelte:head>
