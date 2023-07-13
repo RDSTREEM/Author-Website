@@ -227,7 +227,7 @@
 	}
 	.suggestion-head {
 		font-size: 1.5rem;
-		text-align: left;
+		align-self: center;
 	}
 
 	.suggestion-text {
