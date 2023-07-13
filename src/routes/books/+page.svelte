@@ -226,8 +226,8 @@
 		text-align: justify;
 	}
 	.suggestion-text {
-		padding: 1rem;
-		padding-top: 0rem;
+		padding-left: 1rem;
+		padding-right: 1rem;
 	}
 	.suggestion-head {
 		font-size: 1.5rem;
