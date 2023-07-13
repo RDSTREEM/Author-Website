@@ -4,7 +4,7 @@
 		<!-- <p class="text-intro"></p> -->
 		<div class="service-text">
 			<span class="main-text">
-				<p>ስልጠና፣ ምርምርና የማማከር አገልግሎት (Training Research and consultancy)</p>
+				<p>ስልጠና፣ ምርምርና የማማከር አገልግሎት (Training, Research and consultancy)</p>
 				<ul>
 					<li>የሽያጭ ክህሎትና የገበያ አስተዳደር(Sales &amp Marketing)</li>
 					<li>የደንበኞች አገልግሎት(Customer Service)</li>
