@@ -61,6 +61,10 @@
 		list-style: disc;
 	}
 
+	ul > li {
+		margin-top: 0.5rem;
+	}
+
 	.service-text {
 		padding-left: 1rem;
 	}
