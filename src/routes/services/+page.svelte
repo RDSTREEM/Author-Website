@@ -50,7 +50,6 @@
 
 	.services-container {
 		background-color: darkcyan;
-		height: max-content;
 	}
 
 	.main-text {

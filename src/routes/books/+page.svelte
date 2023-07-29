@@ -11,239 +11,77 @@
 </svelte:head>
 
 <main>
-	<div class="wrapper">
-		<div class="latest-container container">
-			<h1 class="header">
-				የደንበኞች አገልግሎት
-				<br />
-				<a href="/files/sample.pdf">Download Sample</a>
-			</h1>
-			<!-- TODO Load from a database -->
+	<div class="check-wrapper">
+		<p class="books">Checkout my books!</p>
 
-			<p class="text-intro">
-				የአገልግሎት ልህቀት ለዘላቂ ተወዳዳሪነት
-				<!-- The Book Of Stuff -->
-			</p>
-			<div class="img-container">
-				<img class="cover-img" src="/book_cover.jpg" alt="Cover" />
+		<div class="books-container">
+			<div class="cont first-book">
+				<a href="/books/customerservice">
+					<img src="/bookcover1.jpg" alt="Book cover for 'የደንበኞች አገልግሎት'" />
+					<p>የደንበኞች አገልግሎት</p>
+				</a>
 			</div>
-			<span class="main-text">
-				<p>የደንበኞች አገልግሎት ልህቀት ብቸኛው ዘላቂ የትርፍማነትና ተወዳዳሪነት ምንጭ</p>
-				<p>
-					ደንበኞች የሚጠቀሟቸውን ምርቶችና አገልግሎቶች የሚገዙባቸውንና የሚገለገሉባቸውን ድርጅቶችና ተቋማት ከሚቀይሩባቸው ምክነያቶች ውስጥ ዋናውና
-					ቀዳሚው ከደንበኞች አገልግሎት ጋር የተያያዙ ጉዳዮች መሆኑን በአገልግሎት ልህቀትና በገበያ ስራ አመራር ዙሪያ የተደረጉ ጥናቶችና ምርምሮች
-					ይጠቁማሉ።
-				</p>
-				<div class="img-container">
-					<img class="stat-img" src="/stats.png" alt="Statistics" />
-				</div>
-				<p class="img-subtitle">ደንበኞች የሚጠቀሟቸውን ምርቶችና አገልግሎቶች የሚቀይሩባቸው ምክነያቶች</p>
-				<p>
-					ስለ ደንበኞች አገልግሎት ስናስብ በአብዛኞቻችን አዕምሮ ውስጥ የሚመጡት ሃሳቦች የደንበኞችን ፍላጎቶችና ችግሮች በሚገባ ማጥናትና መረዳት፣
-					ምርትና አገልግሎቶችን በደንበኞች ፍላጎትና ችግሮች መሰረት በማምረትና አገልግሎት በመስጠት የደንበኞችን ፍላጎቶች ማርካትና ችግሮቻቸውን መፍታት
-					የሚሉ ጉዳዮች ናቸው። ሆኖም ግን እነዚህ ጉዳዮች አሁን በምንኖርበት ሉላዊ የውድድር ዓለም ውስጥ ማንኛውም ድርጅት ሊተገብራቸው የሚችል መሰረታዊ
-					የውድድር መሰረቶች በመሆናቸው ለዘላቂ ተወዳዳሪነት ያላቸው ፋይዳ እዚህ ግባ የሚባል አይደለም። አሁን በምንኖርበት ሉላዊ የውድድር ዓለም ውስጥ
-					የደንበኞችን ፋላጎቶችና ችግሮች በሚገባ በመረዳት ምርትና አገልግሎቶችን የደንበኞችን ፍላጎቶችና ችግሮች መሰረት ባደረገ ሁኔታ በማምረትና
-					አገልግሎት በመስጠት ደንበኞችን ከማርካትና ችግሮቻቸውን ከመፍታት ባለፈ ደንበኞች ከሚጠብቁት በላቀ ሁኔታ በማገልገልና ችግሮቻቸውን በመፍታት
-					ደንበኞችን ማስደሰትና ማስደመም፤ ከደንበኞች ጋር መተማመንና የጋራ ተጠቃሚነትን መሰረት ያደረገ ዘላቂነት ያለው ስልታዊ የአጋርነት ስርዓት
-					መመስረት ያስፈልጋል።
-				</p>
-				<p>
-					የደንበኞች አገልግሎት ልህቀት የሃገራትንና የተቋማትን ስኬትና እጣፈንታ የሚወስንና ዘላቂ ተወዳዳሪ ሆኖ ለመገኘት አንኳር የሆነ ጉዳይ ነው።
-					በዚህ መፅሃፍ ውስጥ ተቋማት የአገልግሎት ልህቀት ባህል ለመገንባትና ለመተግበር ሊያከናውኗቸው የሚገቡ የተለያዩ ስልቶችና ስትራቴጅዎች በስፋት
-					ቀርበዋል።
-				</p>
-				<span class="suggestion-text">
-					<p class="suggestion-head">አስተያየቶች</p>
-					<p class="suggestion">
-						ከፍተኛ የስነምግባርና የአገልጋይነት ስነልቦና በሚጠይቀው እና ክቡር የሆነውን የሰው ልጅ ጤናን የመንከባከብ የህክምና አገልግሎት ዘርፍ ውስጥ
-						ከ 30 አመታት በላይ በመንግስትና የግል የጤና ተቋማት ውስጥ ሰርቻለሁ። በዚህ ረጅም የአገልግሎት ዘመን ውስጥ የተማርኳቸውና ያካበትኳቸው
-						የአገልግሎት ልህቀት አስተሳሰቦች፣ እውቀቶችና ክህሎቶች በዚህ መፅሀፍ ውስጥ ሰፊና ጥልቅ ማብራሪያ ተሰጥቶባቸዋል።
-					</p>
-					<p class="suggester">ዶ/ር መኮንን አይችሉህም:- የድሪም ኬር ሆስፒታል ስራ አስኪያጅና መስራች አባል</p>
-					<p class="suggestion">
-						ሁሉም ቢዝነስ የአገልግሎት ቢዝነስ ነው። የምንኖረውና የቢዝነስ፣ ኢንቨስትመንትና ንግድ ስራዎቻችንን የምናከናውነው በነፃ የገበያ ስርዓት
-						ውስጥ ነው። የዚህ የነፃ ገበያ ስርዓት ውስጥ ትልቁ የጨዋታ ህግ ውድድር ነው። በመሆኑም ተቋማት በዘላቂነት አትራፊና ተወዳዳሪ ለመሆን
-						የተለያዩ ስልቶችና ስትራቴጅዎችን ይነድፍሉ ፣ ይተገብራሉ ። ከዚህ ጋር በተያያዘ የተደረጉ የጥናትና የምርምር ውጤቶች የሚጠቁሙት የአገልግሎት
-						ልህቀት ለተቋማት ዘላቂ ተወዳዳሪነት የማይተካ ሚና የሚጫዎት መሆኑን ነው። በዚህ መፅሀፍ ውስጥ በተቋማት ውስጥ የአገልግሎት ልህቀት ስርዓት
-						ለመንደፍና ለመተግባር የሚያስችሉ ስልቶችና ስትራቴጅዎች በስፍት ተዳሰዋል።
-					</p>
-					<p class="suggester">በድሉ ይስማው:- የገበያ አስተዳደር ረ/ ፕሮፌሰር</p>
-					<p class="suggestion">
-						ከፍተኛ ውድድር በሚታይባቸው የሆቴል፣ የቱሪዝም፣ ሬስቶራንትና ሌሎች ተዛማጅ ስራዎች ውስጥ ለበርካታ አመታት ሰርቻለሁ ፤ በመስራት ላይም
-						እገኛለሁ። በዚህ ውድድር የጨዋታው ህግ በሆነበት ዘርፍ ውስጥ የተለያዩ የውድድር ስልቶችና ስትራቴጅዎች የሚተገበሩ ቢሆንም የአገልግሎት
-						ልህቀት ቁልፍ ጉዳይ ነው። በዚህ መፅሀፍ ውስጥ የተካተቱ የደንበኞች አገልግሎት ስልቶች፣ ስትራቴጅዎችና መርሆዎች ተቋማት የሚሰጡትን
-						አገልግሎት ወደ ላቀ ደረጃ ለማሳደግ ቁልፍ ሚና የሚጫዎቱ ሆነው አግኝቻቸዋለሁ።
-					</p>
-					<p class="suggester">አቶ ነገሰ ተሻገር:- ሆቴል ማናጀር</p>
-					<p class="suggestion">
-						እንደ ንግድና ዘርፍ ማህበራት በከተማችን ፣ በክልላችን፣ እንዲሁም በሃገራችን የሚገኙ የንግድ፣ኢንቨስትመንትና የአገልግሎት ሰጭ ተቋማት
-						ምርታማነትና የአገልግሎት አሰጣጥ እንዲሻሻል፣ እንዲዘምንና የላቀ የልህቀት ደረጃ ላይ እንዲደርስ የዘወትር ፍላጎታችንና አበክረን የምንሰራበት
-						ግብ ነው። በዚህ መፅሀፍ ውስጥ የተካተቱ የደንበኞች አገልግሎት ልህቀት ስልቶችና ስትራቴጅዎች ለዚህ ግብ ወሳኝ ሚና የሚጫወቱ ናቸው።
-					</p>
-					<p class="suggester">አቶ ክቡር ጌታቸው:- የባህርዳር ከተማ ንግድና ዘርፉ ማህበራት ፕሬዘዳንት</p>
-					<p class="suggestion">
-						በሽያጭ ስራ ውስጥ ለበርካታ አመታት እንደመስራቴ የደንበኞችን ፍላጎቶችና ችግሮች በአግባቡ መረዳትና ፍላጎታቸውን መሰረት ያደረገ አገልግሎት
-						በመስጠት ፍላጎቶቻቸውን ማርካትና ችግሮቻቸውን መፍታት መሰረታዊ የሽያጭና የደንበኞች አገልግሎት መርሆዎች መሆናቸውን እረዳለሁ። ከዚህ ጋር
-						በተያያዘ በዚህ መፅሀፍ ውስጥ የተካተቱ የአገልግሎት ልህቀት ስልቶችና ስትራቴጅዎች ለሽያጭ ሰራተኞችም ሆነ በሌሎች ተዛማጅ በሆኑ የንግድ ፣
-						ኢንቨስትመንት ፣ የአገልግሎት ስራዎች ውስጥ ልህቀት ለመፍጠር የሚያስችሉ መሆናቸውን ለመግለፅ እወዳለሁ።
-					</p>
-					<p class="suggester">አቶ ማስረሻ ገላው:- የዋካንዳ ኮሚሽን ኤጀንት መስራችና ስራ አስኪያጅ</p>
-				</span>
-			</span>
-		</div>
-	</div>
-	<div class="wrapper">
-		<div class="latest-container container">
-			<p class="text-intro">የአገልግሎት ልህቀት ለዘላቂ ተወዳዳሪነት</p>
-			<div class="img-container">
-				<img class="cover-img" src="/book_cover.jpg" alt="Cover" />
+			<div class="cont second-book">
+				<a href="/books/chandular">
+					<img src="/bookcover2.jpg" alt="Book over for 'የአገልግሎት ልህቀት ለዘላቂ ተወዳዳሪነት'" />
+					<p>የአገልግሎት ልህቀት ለዘላቂ ተወዳዳሪነት</p>
+				</a>
 			</div>
-			<span class="main-text">
-				<p class="cyan">“ሁሉም ሰው የሽያጭ ሰራተኛ ነው”</p>
-				<p class="cyan">ጤና ይስጥልኝ!</p>
-				<p class="cyan">በሽያጭ ስራዎት ስኬታማ መሆን ይፈልጋሉ?</p>
-				<p>
-					በዚህ መጽሀፍ ውስጥ የተካተቱ ሳይንሳዊ የሽያጭ እና ገበያ አስተዳደር መርሆዎች፣ አስተሳሰቦች፣ ስትራቴጅዎች እና ጥበቦችን በመተግበር በቀላሉ
-					ስኬታማ መሆን ይችላሉ፡፡ ሽያጭ ሳይንሳዊ ሂደት ነው፡፡ ይህ መፅሀፍ በገበያ ስራ አመራር በተለይም በሽያጭ ስራ ውስጥ ስኬታማ ለመሆን የሚያስችሉ
-					ሳይንሳዊ የገበያ ስራ አመራርና የሽያጭ ፅንሰ ሀሳቦች፣ አተያዮች፣ ስልቶች እና ስትራቴጅዎች እንዲሁም በተግባር የተፈተኑ ውጤታማ ልምዶች
-					የተሰነዱበት ነው፡፡ ሳይንሳዊ የሆኑ በአለማችን ታላላቅ የሽያጭ የምርምር እና ስልጠና ተቋማት የሚመከሩ ውጤታማ የሽያጭ ሳይንስ፣ ሰዎችን
-					የማሳመን ጥበብና መርሆች ተተንትነውበታል፡፡
-				</p>
-				<p>
-					በሽያጭ ስራዎት ውስጥ <strong
-						>‘እመለሳለሁ'፣ ‘ላስብበት' ፣ ‘ባለቤቴን ላማክር'፣ ‘የምፈልገው ምርት አይነት አይደለም’ ፣ ‘ዋጋው ውድ ነው’፣ ‘አቅም የለኝም’፣
-						‘አስቸኳይ አይደለም’፣ ‘ፍላጎት የለኝም’፣ ‘ባለሙያ ላማክር’፣</strong
-					> ወዘተ… የሚሉ ገዥዎች ያጋጥምዎታል? ለእነዚህ አይነት የገዥዎች ሃሳቦች ሳይንሳዊ የሆኑና ገዥዎች በቀላሉ የግዥ ውሳኔ ላይ እንዲደርሱ የሚያስችሉ
-					ስትራቴጅዎች እና ጥበቦች እንዳሉ ያውቃሉ? በዚህ መጽሁፍ ውስጥ እነዚህ ስትራቴጅዎች እና ጥበቦች በስፋት ተተንትነዋል፡፡
-				</p>
-				<p>
-					በሽያጭ ስራቸው ከፍተኛ የስኬት ደረጃ ላይ የደረሱ የሽያጭ ሰራተኞች እንዱሁም ታላላቅ የሽያጭ እና የገበያ አስተዳደር የምርምር እና ስልጠና
-					ተቋማት በሽያጭ ሙያ ውስጥ ስኬታማ ለመሆን አበክረው ከሚጠቅሷቸው ክህሎቶች ውስጥ ቀዳሚው ሰዎችን የማሳመን ጥበብ ነው፡፡ በዚህ መጽሃፍ ውስጥ
-					መሰረታዊ የሆኑ ሰዎችን የማሳመን ጥበቦች እና ክህሎቶች ተብራርተው ቀርበዋል፡፡
-				</p>
-				<span class="suggestion-text">
-					<p class="suggestion-head">አስተያየቶች</p>
-					<p class="suggestion">
-						በማንኛውም የንግድ ስራ ውስጥ በተለይም በሽያጭ እና የገበያ ስራ አመራር ዘርፍ የተሰማሩ ሁሉ ጊዜ ሰጥተው ሊያነቡት የሚገባ ምርጥ መፅሃፍ
-						ነው።
-					</p>
-					<p class="suggester">ብሩክ አጋዥ:- የዛጉሻ ኮሚሽን ኤጀንት መስራች እና ባለቤት</p>
-					<p class="suggestion">
-						የሽያጭና ገበያ አስተዳደር ፅንሰ ሀሳብና ትግበራ ዕውቀት፣ አመለካከት እና ክህሎትን ያስተሳሰረ፣ በሽያጭና የገበያ አስተዳደር ከፍተኛ
-						የልህቀትና ስኬት ደረጃ ለመድረስ የሚሹ ሁሉ ሊያነቡት የሚገባ ምርጥ መፅሀፍ ነው።
-					</p>
-					<p class="suggester">አለሙ ሙለታ:- በባህር ዳር ዩንቨርሲቲ የገበያ አስተዳደር ረ/ፕሮፌሰር</p>
-					<p class="suggestion">
-						በስራ ፈጠራ በተለይም በጥቃቅንና አነስተኛ ዘርፍ የሚጀመሩ አብዛኛዎች ድርጅቶች አንድ አመት ባልሞላ ጊዜ ውስጥ ይከስማሉ፤ አንዳዶች ደግሞ
-						ለብዙ ዘመናት ምንም አይነት የጎላ ዕድገት ሳያስመዘግቡ ይቆያሉ። ለዚህም ብዙ ምክንያቶች የሚጠቀሱ ቢሆንም እነዚህ ድርጅቶች ምርቶቻቸውንና
-						አገልግሎቶቻቸውን በሚጠበቀው ደረጃ መሸጥ አለመቻላቸው ዋናው ምክነያት እንደሆነ የዘርፉ ሙህራን ይገልፃሉ። ይህ “የሽያጭ ክህሎትና ሳይኮሎጅ”
-						መፅሀፍ ስራ ፈጣሪዎች ምርትና አገልግሎቶቻቸውን በብቃት ለመሸጥና ስኬታማ ለመሆን በከፍተኛ ደረጃ የሚያግዛቸው ነው።
-					</p>
-					<p class="suggester">ተዋበ ጋሻው:- የስራ ፈጠራ አሰልጣኝና አማካሪ</p>
-					<p class="suggestion">
-						በሽያጭ ስራ ውስጥ ለበርካታ አመታት ሰርቻለሁ። በሽያጭ ስራየ ውስጥ የምከተለው ፍልስፍናም የደንበኞችን ፍላጎት የሚያሟሉ፣ ችግሮቻቸውን
-						የሚፈቱ ምርትና አገልግሎቶችን በማቅረብ ከደንበኞች ጋር መተማመንንና የጋራ ተጠቃሚነትን መሰረት ያደረገ ዘላቂ ግንኙነት መገንባት የሚል ነዉ
-						፤ የዚህ መፅሀፍ ጭብጥ ይህን ፍልስፍና መሰረት ያደረገ በመሆኑ በጣም ወድጄዋለሁ።
-					</p>
-					<p class="suggester">ማስረሻ ገላው:- የዋካንዳ ኤጀንት መስራችና ባለቤት</p>
-				</span>
-			</span>
 		</div>
 	</div>
 </main>
 
 <style>
-	.header {
-		text-align: center;
-		padding-top: 1rem;
-		font-size: 1.6rem;
-	}
-	.text-intro {
-		font-size: 1.5rem;
-		font-style: oblique;
-		text-align: center;
-		padding-top: 1rem;
-		padding-bottom: 1rem;
-	}
-
-	.wrapper {
+	.check-wrapper {
 		padding-top: 0.7rem;
 		display: flex;
 		align-items: center;
 		justify-content: center;
 	}
 
-	.container {
-		display: block;
-		height: max-content;
-		width: 1000px;
-		border-radius: 20px;
-		padding: 1rem;
-		overflow-y: hidden;
+	.check-wrapper {
+		flex-direction: column;
+		gap: 0.7rem;
 	}
 
-	.latest-container {
-		background-color: cadetblue;
+	.books {
+		font-size: xx-large;
 	}
 
-	.main-text {
-		font-size: 1em;
-	}
-
-	.img-container {
+	.books-container {
 		display: grid;
-		justify-items: center;
+		grid-template-columns: 1fr 1fr;
+		gap: 1rem;
 	}
 
-	.cover-img {
-		max-width: 40%;
+	.cont {
+		border-radius: 1rem;
+		padding: 1rem;
 	}
 
-	.main-text p {
-		text-align: justify;
-		padding-top: 1rem;
-		padding-left: 1rem;
-		padding-right: 1rem;
-	}
-
-	p.img-subtitle {
-		font-size: 0.8rem;
-		color: #e7e7e7;
+	.cont p {
 		text-align: center;
+		padding-top: 0.5rem;
 	}
 
-	.stat-img {
-		margin-top: 1.5rem;
-	}
-	.suggestion {
-		margin-top: 1rem;
-		margin-bottom: 1rem;
-		text-align: justify;
-	}
-	.suggestion-head {
-		font-size: 1.5rem;
-		margin-top: 0rem;
-		margin-bottom: -1rem;
-		margin-left: auto;
-		margin-right: auto;
+	.cont img {
+		margin: 0;
+		border-radius: 1rem;
+		max-width: 500px;
 	}
 
-	.suggester {
-		color: white;
+	.cont {
+		border: 1px solid black;
 	}
-	.suggestion-text {
-		padding-left: 2rem;
-		padding-right: 2rem;
-	}
-
-	.cyan {
-		color: cyan;
-		font-weight: bold;
+	.cont:hover {
+		box-shadow: 1px 0px 30px 0px black;
 	}
 
-	.aqua {
-		color: aquamarine;
-		font-weight: bold;
+	@media (max-width: 500px) {
+		.books-container {
+			display: grid;
+			grid-template-columns: 1fr;
+			gap: 1rem;
+		}
 	}
 </style>

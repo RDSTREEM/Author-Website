@@ -2,7 +2,8 @@
 	/* --nav-color: #233b53; */
 	--color-1: #1f5e98;
 	--color-2: #292f33;
-	--color-7: #3d5e70c4;
+	--color-7: #263b49;
+	--color-7-back: #3d5e70c4;
 	--color-3: #55acee;
 	--color-4: #99aab5;
 	--color-5: #ccd6dd;
@@ -48,4 +49,8 @@ a:focus,
 a:active {
 	text-decoration: none;
 	cursor: pointer;
+}
+
+img {
+	border-radius: 1rem;
 }
