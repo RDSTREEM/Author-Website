@@ -10,7 +10,7 @@
 			<a href="/files/sample.pdf">Download Sample</a>
 		</h1>
 
-		<p class="text-intro">የአገልግሎት ልህቀት ለዘላቂ ተወዳዳሪነት The Book Of Stuff</p>
+		<p class="text-intro">የአገልግሎት ልህቀት ለዘላቂ ተወዳዳሪነት</p>
 		<div class="img-container">
 			<img class="cover-img" src="/bookcover1.jpg" alt="Cover" />
 		</div>
@@ -83,6 +83,7 @@
 		text-align: center;
 		padding-top: 1rem;
 		font-size: 1.6rem;
+		color: white;
 	}
 	.text-intro {
 		font-size: 1.5rem;
