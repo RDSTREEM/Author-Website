@@ -25,7 +25,7 @@
 			<div class="cont second-book">
 				<a href="/books/chandular">
 					<img src="/bookcover2.jpg" alt="Book over for 'የአገልግሎት ልህቀት ለዘላቂ ተወዳዳሪነት'" />
-					<p>የአገልግሎት ልህቀት ለዘላቂ ተወዳዳሪነት</p>
+					<p>የሽያጭ ክህሎትና ሳይኮሎጅ</p>
 					<p class="click">Click to learn more.</p>
 				</a>
 			</div>
@@ -48,6 +48,7 @@
 
 	.books {
 		font-size: xx-large;
+		color: white;
 	}
 
 	.books-container {
@@ -64,6 +65,7 @@
 	.cont p {
 		text-align: center;
 		padding-top: 0.5rem;
+		color: white;
 	}
 
 	.cont img {
