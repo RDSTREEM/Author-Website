@@ -10,6 +10,7 @@
 					<li>የደንበኞች አገልግሎት(Customer Service)</li>
 					<li>ዲጅታል ማርኬቲንግ(Digital Marketing)</li>
 					<li>የስራ ፈጠራ (Entrepreneurship: startup &amp; corporate)</li>
+					<li>ስትራቴጅክ የስራ አመራር(Strategic Leadership)</li>
 					<li>የቢዝነስ ሞዴል ምስረታና ማሻሻያ(Business Model Development and Innovation )</li>
 					<li>የህዝብ ግንኙነትና የተግባቦት ክህሎት(Public Relations &amp; Communication)</li>
 				</ul>
@@ -41,7 +42,7 @@
 
 	.container {
 		display: block;
-		height: auto;
+		min-height: max-contents;
 		width: 1000px;
 		border-radius: 20px;
 		padding: 1rem;
