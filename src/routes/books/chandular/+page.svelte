@@ -4,11 +4,11 @@
 <div class="wrapper">
 	<div class="latest-container container">
 		<h1 class="header">
-			[New book title]
+			የሽያጭ ክህሎትና ሳይኮሎጅ
 			<br />
 			<a href="/files/sample.pdf">Download Sample</a>
 		</h1>
-		<p class="text-intro">[New book subtitle]</p>
+		<p class="text-intro">ለስኬታማ ሽይጭና የገበያ ስራ አመራር</p>
 		<div class="img-container">
 			<img class="cover-img" src="/bookcover2.jpg" alt="Cover" />
 		</div>
