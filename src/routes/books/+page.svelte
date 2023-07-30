@@ -19,12 +19,14 @@
 				<a href="/books/customerservice">
 					<img src="/bookcover1.jpg" alt="Book cover for 'የደንበኞች አገልግሎት'" />
 					<p>የደንበኞች አገልግሎት</p>
+					<p class="click">Click to learn more.</p>
 				</a>
 			</div>
 			<div class="cont second-book">
 				<a href="/books/chandular">
 					<img src="/bookcover2.jpg" alt="Book over for 'የአገልግሎት ልህቀት ለዘላቂ ተወዳዳሪነት'" />
 					<p>የአገልግሎት ልህቀት ለዘላቂ ተወዳዳሪነት</p>
+					<p class="click">Click to learn more.</p>
 				</a>
 			</div>
 		</div>
@@ -77,11 +79,33 @@
 		box-shadow: 1px 0px 30px 0px black;
 	}
 
+	@media (max-width: 1000px) {
+		img {
+			max-width: 400px !important	;
+		}
+	}
+
+	@media (max-width: 900px) {
+		.books-container {
+			display: grid;
+			grid-template-columns: 1fr;
+			gap: 1rem;
+		}
+	}
+
 	@media (max-width: 500px) {
 		.books-container {
 			display: grid;
 			grid-template-columns: 1fr;
 			gap: 1rem;
 		}
+
+		img {
+			max-width: 300px !important;
+		}
+	}
+
+	.click {
+		color: white;
 	}
 </style>

@@ -54,21 +54,26 @@
 						</div>
 					</span>
 				</div>
-				<span class="main-text">
+				<!-- <span class="main-text">
 					<p>
 						Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero harum culpa totam neque
 						similique, mollitia praesentium voluptatem quos maxime? Ipsa cumque maiores consequatur
 						perferendis dolore culpa odit. Dolorum, tempore mollitia!
 					</p>
-				</span>
+				</span> -->
 			</div>
 			<div class="contained-container books-container">
 				<p class="text-intro">Books</p>
-				<span class="main-text">
-					Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim maiores, minus odio nihil
-					autem voluptatibus distinctio quidem dolore quas quos. Deleniti sunt quis suscipit quasi
-					atque, placeat harum fugit consequuntur!
-				</span>
+				<div class="check-wrapper">
+					<div class="books-container">
+						<div class="cont first-book">
+							<img src="/bookcover1.jpg" alt="Book cover for 'የደንበኞች አገልግሎት'" />
+						</div>
+						<div class="cont second-book">
+							<img src="/bookcover2.jpg" alt="Book over for 'የአገልግሎት ልህቀት ለዘላቂ ተወዳዳሪነት'" />
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -107,11 +112,28 @@
 		max-width: 5.5rem;
 		height: auto;
 	}
+
+	.cont {
+		display: grid;
+		place-items: center;
+	}
+	.cont img {
+		max-width: 500px;
+		margin: 1rem;
+	}
+
+	@media (max-width: 500px) {
+		.cont img {
+			max-width: 200px;
+		}
+	}
 	.img {
 		margin-right: 1rem;
 	}
 	.img-container {
 		display: flex;
+		flex-direction: column;
+		align-items: center;
 	}
 
 	@media (max-width: 500px) {
