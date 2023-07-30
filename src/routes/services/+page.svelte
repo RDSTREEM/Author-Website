@@ -41,7 +41,7 @@
 
 	.container {
 		display: block;
-		height: 500px;
+		height: auto;
 		width: 1000px;
 		border-radius: 20px;
 		padding: 1rem;
