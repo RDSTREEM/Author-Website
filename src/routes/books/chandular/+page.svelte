@@ -69,6 +69,7 @@
 		text-align: center;
 		padding-top: 1rem;
 		font-size: 1.6rem;
+		color: white;
 	}
 	.text-intro {
 		font-size: 1.5rem;
